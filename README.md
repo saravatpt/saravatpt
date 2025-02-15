@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @saravatpt
 - 👀 I’m interested in coding
-- 🌱 I’m currently learning rpa
-- 💞️ I’m looking to collaborate on .net, rpa, etc.,
+- 🌱 I’m currently learning AI ML
+- 💞️ I’m looking to collaborate on AI ML, ChatBots, Cloud etc.,
 - 📫 How to reach me saravatpt@gmail.com
 <!---
 saravatpt/saravatpt is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
