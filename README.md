@@ -18,6 +18,6 @@ Welcome to my GitHub profile! I'm passionate about technology, coding, AI ML and
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=saravatpt&layout=compact&theme=radical)
 
 ## 🌐 Connect with Me
-- [LinkedIn](https://github.com/saravatpt/saravatpt)
+- [LinkedIn](https://www.linkedin.com/in/saravantpt)
 - [Website/Portfolio](TBD)
 - [Twitter](https://x.com/saravantpt)
