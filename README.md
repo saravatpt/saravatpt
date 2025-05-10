@@ -1,6 +1,6 @@
 # Hi there 👋, I'm Saravanan!
 
-Welcome to my GitHub profile! I'm passionate about technology, coding, AI ML and contributing to open-source projects. Here's a bit about me:
+Welcome to my GitHub profile! I'm passionate about AI Agents, Coding & AI ML and contributing to open-source projects. Here's a bit about me:
 
 ## 🚀 About Me
 - Tech Lead with hands on experience in Prompt Engineering, Copilot, AI Agents, Python, Vibe Coding, C#.NET, Web API, Angular,NodeJS & SQL
