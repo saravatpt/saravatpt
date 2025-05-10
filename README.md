@@ -1,6 +1,6 @@
 # Hi there 👋, I'm Saravanan!
 
-Welcome to my GitHub profile! I'm passionate about technology, coding, and contributing to open-source projects. Here's a bit about me:
+Welcome to my GitHub profile! I'm passionate about technology, coding, AI ML and contributing to open-source projects. Here's a bit about me:
 
 ## 🚀 About Me
 - 👨‍💻 I’m currently working on **BrowserAgent**
