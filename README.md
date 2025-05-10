@@ -3,15 +3,16 @@
 Welcome to my GitHub profile! I'm passionate about technology, coding, AI ML and contributing to open-source projects. Here's a bit about me:
 
 ## 🚀 About Me
+- Tech Lead with hands on experience in Prompt Engineering, Copilot, AI Agents, Python, C#.NET, Web API, Angular, SQL
+- 
 - 👨‍💻 I’m currently working on **BrowserAgent**
 - 🌱 I’m currently learning **Vision Models**
-- 💬 Ask me about **Prompt Engineering, AI Agents, C#.NET**
 - 📫 How to reach me: **saravantpt@gmail.com**
 
 ## 🛠️ Tools & Technologies
 - Programming Languages: **Python, Javascript, C#, VB, C++**
-- Frameworks: **Langchain, Autogen, Transformers, Tensorflow, Pytorch, Openai, Huggingface, React, .NET Framework etc.,**
-- Tools: **VSCode, Cursor, Copilot, Git, Docker, Huggingface, **
+- Frameworks: **Langchain, Autogen, Transformers, Tensorflow, Pytorch, Openai, Huggingface, React, Angular, NodeJS .NET Framework etc.,**
+- Tools: **VSCode, Cursor, Copilot, Git, Docker, Huggingface, AzureOpenAI, VertexAI, etc.,**
 
 ## 📈 Stats
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=saravatpt&show_icons=true&theme=radical)
