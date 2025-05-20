@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saravanan Narayanan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-indigo-600 text-white py-6 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl sm:text-3xl font-semibold">Saravanan Narayanan</h1>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="hover:text-indigo-200 transition-colors duration-300">About</a></li>
+                    <li><a href="#skills" class="hover:text-indigo-200 transition-colors duration-300">Skills</a></li>
+                    <li><a href="#projects" class="hover:text-indigo-200 transition-colors duration-300">Projects</a></li>
+                    <li><a href="#experience" class="hover:text-indigo-200 transition-colors duration-300">Experience</a></li>
+                    <li><a href="#contact" class="hover:text-indigo-200 transition-colors duration-300">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="hamburger-btn" class="md:hidden text-white focus:outline-none" aria-label="Toggle Navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="hidden fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-90 z-50">
+        <div class="bg-gray-800 w-80 h-full absolute right-0 p-6">
+            <div class="flex justify-end mb-4">
+                <button id="close-menu-btn" class="text-white focus:outline-none" aria-label="Close Menu">
+                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <nav class="block">
+                <ul class="space-y-4">
+                    <li><a href="#about" class="block text-lg text-white hover:text-indigo-200 transition-colors duration-300">About</a></li>
+                    <li><a href="#skills" class="block text-lg text-white hover:text-indigo-200 transition-colors duration-300">Skills</a></li>
+                    <li><a href="#projects" class="block text-lg text-white hover:text-indigo-200 transition-colors duration-300">Projects</a></li>
+                    <li><a href="#experience" class="block text-lg text-white hover:text-indigo-200 transition-colors duration-300">Experience</a></li>
+                    <li><a href="#contact" class="block text-lg text-white hover:text-indigo-200 transition-colors duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <section id="about" class="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+            <div class="container mx-auto grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 class="text-3xl sm:text-4xl font-semibold text-indigo-700 mb-4">About Me</h2>
+                    <p class="text-gray-700 text-lg">
+                        Hello! I'm Saravanan Narayanan, a Software/AI ML Engineer and Technical Lead with over 11 years of experience in software development and 2+ years in building intelligent AI agents. I'm passionate about leveraging technology to solve complex problems and drive innovation. My expertise spans full-stack development, AI/ML integration, and technical leadership. I'm currently leading projects at Optum, focusing on AI/ML solutions for the healthcare industry.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://github.com/saravatpt/saravatpt/raw/main/images/saravanan.png" alt="Saravanan Narayanan" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="bg-indigo-50 py-16 px-4 sm:px-6 lg:px-8">
+            <div class="container mx-auto">
+                <h2 class="text-3xl sm:text-4xl font-semibold text-indigo-700 mb-8 text-center">Skills</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white rounded-lg shadow-md p-6 flex items-center space-x-4">
+                        <div class="text-indigo-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21v-4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v4"></path><polyline points="14 9 9 9 9 15 14 15"></polyline></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Programming Languages</h3>
+                            <p class="text-gray-600">Python, JavaScript, C#.NET, VB.NET, C++</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 flex items-center space-x-4">
+                        <div class="text-indigo-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M21.882 2.211H2.118a.5.5 0 0 0-.47.684l2.2 6.6a.5.5 0 0 0 .47.33H6v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8h1.662a.5.5 0 0 0 .47-.33l2.2-6.6a.5.5 0 0 0-.47-.684z"></path><circle cx="12" cy="7" r="2"></circle></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">AI/ML</h3>
+                            <p class="text-gray-600">Autogen, Langchain, Transformers, RAG, TensorFlow, ML Algorithms, NLP, OpenAI/GPT, VertexAI/Gemini, MLOps, Docker</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 flex items-center space-x-4">
+                        <div class="text-indigo-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><ellipse cx="12" cy="6" rx="8" ry="3"></ellipse><path d="M19.4 15a8 3 0 0 1-9.8 0M2 15a8 3 0 0 1 9.8 0"></path><line x1="12" y1="12" x2="12" y2="12.01"></line></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Databases</h3>
+                            <p class="text-gray-600">NoSQL, Oracle, SQL Server, PL/SQL</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 flex items-center space-x-4">
+                         <div class="text-indigo-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M4 14.899A7 7 0 1 2 15.71 8h1.79a4.5 4.5 0 0 1 0 9H4"></path><polyline points="9 18 9 12 13 9 17 12 17 18"></polyline></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Cloud & DevOps</h3>
+                            <p class="text-gray-600">Azure Cloud, DevOps, GitHub</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 flex items-center space-x-4">
+                        <div class="text-indigo-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17v-4"></path><path d="M12 17v-4"></path></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Tools</h3>
+                            <p class="text-gray-600">Visual Studio, Cursor, Copilot, Hugging Face, GCP, SSMS, Toad</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 flex items-center space-x-4">
+                        <div class="text-indigo-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path><path d="M12 8h6"></path><path d="M12 12h6"></path><path d="M12 16h6"></path></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Other</h3>
+                            <p class="text-gray-600">Android, UI Path, Teaching, Hardware and Networking</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+            <div class="container mx-auto">
+                <h2 class="text-3xl sm:text-4xl font-semibold text-indigo-700 mb-8 text-center">Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">AI Agent for Claims Processing</h3>
+                        <p class="text-gray-600 mb-4">Developed an AI Agent using Azure OpenAI, RAG, and NLP to automate medical claim reviews, increasing throughput by 100x and reducing manual review time by 80%.</p>
+                        <p class="text-indigo-500 font-semibold">Technologies Used: AutoGen, Azure OpenAI, NLP, RAG, Python</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Browser Automation Agent</h3>
+                        <p class="text-gray-600 mb-4">Developed a Browser Agent using Azure OpenAI, Browser Use, and OpenCV to automate daily tasks in the claims portal, reducing manual effort by 50%.</p>
+                         <p class="text-indigo-500 font-semibold">Technologies Used: Azure OpenAI, BrowserUse, OpenCV, Python</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">SQL Query Generation Agent</h3>
+                        <p class="text-gray-600 mb-4">Developed a SQL Agent using Azure OpenAI, Text2SQL, and NLP to help business stakeholders generate database reports through natural language prompts.</p>
+                        <p class="text-indigo-500 font-semibold">Technologies Used: Azure OpenAI, Text2SQL, NLP, SQL</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="bg-indigo-50 py-16 px-4 sm:px-6 lg:px-8">
+            <div class="container mx-auto">
+                <h2 class="text-3xl sm:text-4xl font-semibold text-indigo-700 mb-8 text-center">Experience</h2>
+                <div class="space-y-8">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Associate Manager, Software Engineering</h3>
+                        <p class="text-gray-600 mb-2"><span class="font-semibold">XLHealth India (Optum), Bengaluru</span> • 2022 - Present</p>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Led AI/ML initiatives and POC development.</li>
+                            <li>Managed a cross-functional development team.</li>
+                            <li>Oversaw end-to-end project delivery.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Lead Software Engineer</h3>
+                        <p class="text-gray-600 mb-2"><span class="font-semibold">Conduent Business Services LLP, Bengaluru</span> • 2019 - 2022</p>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Handled production issues and team management.</li>
+                            <li>Migrated applications to newer technologies.</li>
+                            <li>Enhanced applications based on client requirements.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Senior Software Engineer</h3>
+                        <p class="text-gray-600 mb-2"><span class="font-semibold">Accenture Services Pvt Ltd, Bengaluru</span> • 2017 - 2019</p>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Developed new enhancements for a commodity trading tool.</li>
+                            <li>Provided technical support and design.</li>
+                            <li>Managed production defects and conducted unit tests.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Software Engineer</h3>
+                        <p class="text-gray-600 mb-2"><span class="font-semibold">Accenture Services Pvt Ltd, Bengaluru</span> • 2014 - 2017</p>
+                        <ul class="list-disc list-inside text-gray-700">
+                           <li>Worked on C#.NET, WinForms, TeamCity, ASP.NET, MVC, Web API & Services, Siebel CRM, VB6, Oracle & PL SQL.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+            <div class="container mx-auto">
+                <h2 class="text-3xl sm:text-4xl font-semibold text-indigo-700 mb-8 text-center">Contact Me</h2>
+                <div class="text-center">
+                    <p class="text-lg text-gray-700 mb-4">
+                        Feel free to reach out to me via email or connect with me on LinkedIn.
+                    </p>
+                    <p class="text-xl text-indigo-600 font-semibold mb-4">
+                        Email: <a href="mailto:saravantpt@gmail.com" class="hover:text-indigo-800 transition-colors duration-300">saravantpt@gmail.com</a>
+                    </p>
+                    <p class="text-xl text-indigo-600 font-semibold">
+                        LinkedIn: <a href="https://linkedin.com/in/saravantpt" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-800 transition-colors duration-300">linkedin.com/in/saravantpt</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-4 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto text-center">
+            <p>© 2024 Saravanan Narayanan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburgerBtn = document.getElementById("hamburger-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const closeMenuBtn = document.getElementById("close-menu-btn");
+        const mobileMenuLinks = mobileMenu.querySelectorAll("a");
+        const navLinks = document.querySelectorAll('.nav-links a');
+        const sections = document.querySelectorAll('section');
+
+        function toggleMobileMenu() {
+            mobileMenu.classList.toggle("hidden");
+        }
+
+        hamburgerBtn.addEventListener("click", toggleMobileMenu);
+        closeMenuBtn.addEventListener("click", toggleMobileMenu);
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener("click", toggleMobileMenu);
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!mobileMenu.classList.contains('hidden') && !mobileMenu.contains(event.target) && event.target !== hamburgerBtn) {
+                toggleMobileMenu();
+            }
+        });
+
+        function updateActiveNavLink() {
+            let currentSectionId = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= sectionTop - 100 && window.scrollY < sectionTop + sectionHeight - 100) {
+                    currentSectionId = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === currentSectionId) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', updateActiveNavLink);
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
