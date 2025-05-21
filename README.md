@@ -20,5 +20,5 @@ Welcome to my GitHub profile! I'm passionate about AI Agents, Coding & AI ML and
 
 ## 🌐 Connect with Me
 - [LinkedIn](https://www.linkedin.com/in/saravantpt)
-- [Website/Portfolio](https://studio--profile-canvas-gq3o2.us-central1.hosted.app/)
+- [Checkout my website here](https://studio--profile-canvas-gq3o2.us-central1.hosted.app/)
 - [Twitter](https://x.com/saravantpt)
