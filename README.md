@@ -4,7 +4,7 @@ Welcome to my GitHub profile! I'm passionate about AI Agents, Coding & AI ML and
 
 ## 🚀 About Me
 - Tech Lead with hands on experience in Prompt Engineering, Copilot, AI Agents, Python, Vibe Coding, C#.NET, Web API, Angular,NodeJS & SQL
-- 👨‍💻 Currently I’m working on **InterviewAgent (AI Agent to take technical and domain interviews)  can be to IT Support Agent etc.,**
+- 👨‍💻 Currently I’m working on **InterviewAgent which can take Realtime interviews.**
 - 🌱 Currently I’m learning **AgentOps**
 - 📫 How to reach me: **saravantpt@gmail.com**
 
