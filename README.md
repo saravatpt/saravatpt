@@ -1,9 +1,9 @@
 # Hi there 👋, I'm Saravanan!
 
-Welcome to my GitHub profile! I'm passionate about AI Agents, Coding & AI ML and contributing to open-source projects. Here's a bit about me:
+Welcome to my GitHub profile! I'm passionate about Agentic AI, Coding, Trends in Software/AI. Here's a bit about me:
 
 ## 🚀 About Me
-- Hands on with GenAI, AI Agents, Copilot, Software Deveopment, Project & Team Management.
+- Hands on with GenAI, Agentic AI, Copilot, Software Deveopment, Project & Team Management.
 - 👨‍💻 Currently I’m working on **InterviewAgent which can take Realtime interviews.**
 - 🌱 Currently I’m learning **AgentOps**
 - 📫 How to reach me: **saravantpt@gmail.com**
